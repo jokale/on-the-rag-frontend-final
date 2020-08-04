@@ -4,11 +4,10 @@ import { NavLink } from 'react-router-dom';
 const link = {
   width: '100px',
   padding: '12px',
-  margin: '0 6px 6px',
-  background: '#D7E1F6',
-  textDecoration: 'underline overline',
-  textDecorationColor: 'white',
-  color: 'black',
+  margin: '0 0px 1px',
+  background: '#DB5985',
+  fontFamily: 'Galada, cursive',
+  color: 'white',
  
 }
 
@@ -21,7 +20,7 @@ class Navbar extends React.Component {
           exact
           style={link}
           activeStyle={{
-            background: '#375595'
+            background: '#690618',
           }}
         >Home</NavLink>
         <NavLink
@@ -29,24 +28,24 @@ class Navbar extends React.Component {
           exact
           style={link}
           activeStyle={{
-            background: '#375595'
+            background: '#690618'
           }}
         >About</NavLink>
         <NavLink
-          to="/quiz"
+          to="/periodquiz"
           exact
           style={link}
           activeStyle={{
-            background: '#375595'
+            background: '#690618'
           }}
-        >Period Finder</NavLink>
+        >Period Quiz</NavLink>
         
              <NavLink
           to="/light"
           exact
           style={link}
           activeStyle={{
-            background: '#375595'
+            background: '#690618'
           }}
         >Light Flow</NavLink>
 
@@ -55,7 +54,7 @@ class Navbar extends React.Component {
           exact
           style={link}
           activeStyle={{
-            background: '#375595'
+            background: '#690618'
           }}
         >Mid Flow</NavLink>
          <NavLink
@@ -63,7 +62,7 @@ class Navbar extends React.Component {
           exact
           style={link}
           activeStyle={{
-            background: '#375595'
+            background: '#690618'
           }}
         >Heavy Flow</NavLink>
      
@@ -72,17 +71,9 @@ class Navbar extends React.Component {
           exact
           style={link}
           activeStyle={{
-            background: '#375595'
+            background: '#690618'
           }}
         >Resources</NavLink>
-         <NavLink
-          to="/help"
-          exact
-          style={link}
-          activeStyle={{
-            background: '#375595'
-          }}
-        >Help</NavLink>
          
       </div>
     )

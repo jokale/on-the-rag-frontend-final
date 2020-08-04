@@ -7,8 +7,7 @@ import Navbar from './components/Navbar'
 import Home from './components/Home'
 import About from './components/About'
 import Extra from './components/Extra'
-import Help from './components/Help'
-import Quiz from './components/Quiz'
+import PeriodQuiz from './components/PeriodQuiz'
 import HeavyFlow from './components/HeavyFlow'
 import MidFlow from './components/MidFlow'
 import LightFlow from './components/LightFlow'
@@ -23,11 +22,10 @@ ReactDOM.render(
     <Route exact path="/" component={Home} />
       <Route exact path="/about" component={About} />
       <Route exact path="/extra" component={Extra} />
-      <Route exact path="/help" component={Help} />
       <Route exact path="/heavy" component={HeavyFlow} />
       <Route exact path="/light" component={LightFlow} />
       <Route exact path="/mid" component={MidFlow} />
-      <Route exact path="/quiz" component={Quiz} />
+      <Route exact path="/periodquiz" component={PeriodQuiz} />
 
     </Router>
   ,

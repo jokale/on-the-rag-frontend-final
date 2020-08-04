@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+div.App{
+  background-color: #DB5985;
+
+}
+
+div{
+  background-color:#DB5985;
+}

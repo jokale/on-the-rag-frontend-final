@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #DB5985;
 }
 
 .App-logo {
@@ -25,7 +26,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #f25757;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +36,41 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+h1 {
+  font-family: 'Galada', cursive;
+  color: #ffe6ea;
+}
+
+h2 {
+  font-family: 'Lato', sans-serif;
+  color: #ffe6ea;
+
+}
+
+h3 {
+  font-family: 'Galada', cursive;
+  color: #ffe6ea;
+
+
+
+}
+
+h4{
+  font-family: 'Lato', sans-serif;
+  color: #ffe6ea;
+
+}
+
+h5{
+  font-family: 'Lato', sans-serif;
+  color: #ffe6ea;
+
+}
+
+h6{
+  font-family: 'Lato', sans-serif;
+  color: #ffe6ea;
+
 }
