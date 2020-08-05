@@ -11,7 +11,11 @@ class PeriodQuiz extends React.Component {
 
                 <h5>Coming very soon!</h5>
                 
-      
+                <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+                <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+                <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+
+
                 <Footer />
                </div> </center>
         )
