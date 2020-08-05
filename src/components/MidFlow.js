@@ -11,7 +11,7 @@ render(){
            <br></br>
             <h4>No period is the same so keep on perioding! </h4>
 
-            <iframe src="https://giphy.com/embed/RX7N03MEUafW8" width="400" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p></p>
+            <iframe src="https://giphy.com/embed/RX7N03MEUafW8" width="400" height="480" frameBorder="0" class="giphy-embed" allowFullScreen title="unique"></iframe><p></p>
 
 
             <h4>Okay that was corny we'll stop.</h4>

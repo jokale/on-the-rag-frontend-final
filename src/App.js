@@ -58,7 +58,8 @@ class App extends React.Component {
 
 
     <br></br><br></br>
-    <a href="https://picasion.com/gl/cYbs/"><img src="https://i.picasion.com/gl/90/cYbs.gif" width="392" height="57" border="0" alt="https://picasion.com/gl/cYbs/" /></a><br /><a href="https://picasion.com/gl/cYbs/"></a>
+    <a href="https://picasion.com/gl/cYbs/"><img src="https://i.picasion.com/gl/90/cYbs.gif" width="392" height="57" border="0" alt="https://picasion.com/gl/cYbs/" /></a><br/>
+    {/* <a href="https://picasion.com/gl/cYbs/"></a> */}
     </div>
   );
   }
