@@ -11,6 +11,7 @@ import PeriodQuiz from './components/PeriodQuiz'
 import HeavyFlow from './components/HeavyFlow'
 import MidFlow from './components/MidFlow'
 import LightFlow from './components/LightFlow'
+import Login from './components/Login'
 
 
 // import * as serviceWorker from './serviceWorker';
@@ -26,6 +27,8 @@ ReactDOM.render(
       <Route exact path="/light" component={LightFlow} />
       <Route exact path="/mid" component={MidFlow} />
       <Route exact path="/periodquiz" component={PeriodQuiz} />
+      <Route exact path="/login" component={Login} />
+
 
     </Router>
   ,
