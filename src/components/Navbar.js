@@ -15,6 +15,14 @@ class Navbar extends React.Component {
   render() {
     return (
       <div>
+          <NavLink
+          to="/login"
+          exact
+          style={link}
+          activeStyle={{
+            background: '#690618'
+          }}
+        >Login</NavLink>
         <NavLink
           to="/"
           exact
